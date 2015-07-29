@@ -1,0 +1,104 @@
+<template name="uxSkills">
+    <h1>User Experience</h1>
+	<div class="col-xs-12 col-sm-6 col-lg-3 wow fadeInLeft">
+		{{> usabiltyTesting}}
+    </div><!-- /.col-lg-3 -->
+
+    <div class="col-xs-12 col-sm-6 col-lg-3 wow fadeInDown">
+    	{{> processFlow}}  
+    </div><!-- /.col-lg-3 -->
+
+    <div class="col-xs-12 col-sm-6 col-lg-3 wow fadeInDown">
+    	{{> uxResearch}}  
+    </div><!-- /.col-lg-3 -->
+
+    <div class="col-xs-12 col-sm-6 col-lg-3 wow fadeInRight">
+      {{> prototyping}}  
+    </div><!-- /.col-lg-3 -->
+</template>
+
+<template name="fedSkills">
+    <h1 class="front-end">Front-end Development</h1>
+    <div class="col-xs-12 col-sm-6 col-lg-3 wow flipInX">
+        {{> htmlCSS}}  
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-lg-3 wow flipInX">
+        {{> jsJquery}}  
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-lg-3 wow flipInX angular">
+        {{> angular}}  
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-3 wow flipInX meteor">
+        {{> meteor}}  
+    </div>
+</template>
+
+<template name="usabiltyTesting">
+    <h3>Usabilty Testing</h3>
+    <!-- <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Usabilty Testing" width="140" height="140"> -->
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
+    </div>
+    <p>Whether it be formal or informal, testing a design or prototype is paramount to the success of a product.</p>
+</template>
+
+<template name="processFlow">
+    <h3>User Process Flow</h3>
+    <!-- <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="User Process Flow" width="140" height="140"> -->
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
+    </div>
+    <p>Seeing the big picture of the current and to-be user journey makes process flows one of the most important tools for a User Expereince professional.</p>
+</template>
+
+<template name="uxResearch">
+    <h3>User Research</h3>
+    <!-- <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="User Research" width="140" height="140"> -->
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
+    </div>
+    <p>Getting out and about to see what real people do in the real world is the best way to make sure you're designing and building the right solution.</p>
+</template>
+
+<template name="prototyping">
+    <h3 class="wf-proto">Wireframes / Prototypes</h3>
+    <!-- <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Wireframes / Prototypes" width="140" height="140"> -->
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%"></div>
+    </div>
+    <p>On paper or fully interactive, creating a visual representation of the idea at hand helps bridge the gap between design, development, and testing.</p>
+</template>
+
+<template name="htmlCSS">
+    <h3>HTML / CSS</h3>
+    <img class="img-circle" src="htmlcss.png" alt="HTML / CSS" width="140" height="140">
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
+    </div>
+</template>
+
+<template name="jsJquery">
+    <h3>JavaScript / jQuery</h3>
+    <img class="img-circle" src="js.png" alt="JavaScript / jQuery" width="140" height="140">
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
+    </div>
+</template>
+
+<template name="angular">
+    <h3>Angular</h3>
+    <img class="img-circle" src="angular.png" alt="Angular" width="140" height="140">
+    <div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
+    </div>
+</template>
+
+<template name="meteor">
+    <h3>Meteor</h3>
+    <img class="img-circle" src="meteor.png" alt="Meteor" width="140" height="140">
+    <div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%"></div>
+    </div>
+</template>

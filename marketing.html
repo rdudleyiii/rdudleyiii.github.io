@@ -1,0 +1,67 @@
+<template name="marketing">
+    <div class="marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row portfolio">
+            {{> fedSkills}}
+        </div>
+        <hr class="featurette-divider">
+        <div class="row">
+            {{> uxSkills}}
+        </div>
+        <!-- /.row -->
+        <!-- START THE FEATURETTES -->
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-12">
+                <h2 class="featurette-heading">Dillards.com | June 2015 | Responsive update</h2>
+                <div class="dillards">
+                  <div class="col-xs-12 col-md-6 col-lg-3">
+                    <a href="#">
+                      <img src="dillardsHome-small.jpg">
+                      <h4>Homepage</h4>
+                    </a>
+                  </div>
+                  <div class="col-xs-12 col-md-6 col-lg-3">
+                    <a href="#">
+                      <img src="dillardsListing-small.jpg">
+                      <h4>Product Listing</h4>
+                    </a>
+                  </div>
+                  <div class="col-xs-12 col-md-6 col-lg-3">
+                    <a href="#">
+                      <img src="dillardsProduct-small.jpg">
+                      <h4>Product Detail</h4>
+                    </a>
+                  </div>
+                  <div class="col-xs-12 col-md-6 col-lg-3">
+                    <a href="#">
+                      <img src="dillardsBag-small.jpg">
+                      <h4>Shopping Cart</h4>
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr class="featurette-divider">
+        <div class="row featurette photos">
+            <div class="col-md-7 col-md-push-5">
+                <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            </div>
+        </div> -->
+        <hr class="featurette-divider">
+        <div class="row featurette contact">
+            <div class="col-md-12">
+                {{> contact}}
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <!-- /END THE FEATURETTES -->
+        <!-- FOOTER -->
+        <footer>
+            <!-- <p class="pull-right">
+                <a href="#" class="toTop" data-scroller="site-wrapper">Back to top</a>
+            </p> -->
+            <p>© 2015 Robert Dudley<a href="#" class="hidden">|Privacy</a><a href="#" class="hidden">|Terms</a></p>
+        </footer>
+    </div>
+</template>
